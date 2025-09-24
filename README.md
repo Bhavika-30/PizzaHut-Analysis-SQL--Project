@@ -77,10 +77,20 @@ This query calculates **daily revenue** and the **running total** to track sales
 
 ---
 
+## 🗂️ Data Source
+CSV files used to populate the database:
+- `orders.csv`
+- `order_details.csv`
+- `pizzas.csv`
+- `pizza_types.csv`
+  
+Each CSV was imported into MySQL before running the analysis queries.
+
+---
+
 ## 🖥️ Tools & Technologies
-- **MySQL / SQL Server / PostgreSQL** (queries are ANSI-SQL compliant with minor syntax tweaks)  
-- MySQL Workbench / DBeaver for schema design & query execution  
-- VS Code for SQL script management and documentation  
+- **MySQL 8.x** (tested) — queries written and executed in **MySQL Workbench**
+- VS Code for SQL script planning and documentation
 
 ---
 
